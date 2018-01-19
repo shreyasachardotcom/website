@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,500,600,700,900|Source+Serif+Pro');
+
+
+$body_type: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$headings: 'Barlow', $body_type;
+$special : "Playfair Display", serif;
+
+$line-height: 1.8;
+
+body{
+	font-family: $body_type;
+	line-height: $line-height;
+	letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4, h5, h6 {font-family: $headings; line-height: $line-height; @extend .fw5; text-decoration: none; letter-spacing: inherit; text-transform: none;}
+
+a {	text-decoration: none; 
+	box-shadow: none;
+	color: inherit;
+    &:hover {
+   		text-decoration: none;
+   	} 
+}
+
+
+/*.indexpage {
+	background-color:$light;
+}*/
+
+.section-title {overflow: hidden; }
+.section-title:after {
+    content:"";
+    display: inline-block;
+    height: 0.9em;
+    vertical-align: bottom;
+    width: 100%;
+    margin-right: -100%;
+    margin-left: 2em;
+    border-top: 1px solid darken($light, 10%);
+}    
+
+.captions, h6 {
+	@extend .b, .ttu, .tracked-mega, .f7;
+	color: $gray;
+	span {
+		color: darken($light, 20%);
+	}
+	
+}
+
+.colophon {color: $gray}

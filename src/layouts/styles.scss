@@ -1,0 +1,48 @@
+@import 'vendor/tachyons';
+@import 'variables/colors';
+@import 'variables/modules';
+@import 'variables/typography';
+
+
+
+
+
+.header__logo {
+        background: url(assets/Logo.svg) no-repeat 0;
+        background-position: 0% 50%;
+        background-size: 24px;
+        height: 24px;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 24px;
+    }
+
+.neg-margins {@extend .nl6-ns, .nr6-ns}
+
+.blogpost {
+	/*p, h1, h2, h3, h4, h5, h6, pre, ul {
+		@extend .w-60-ns, .center, .ph4;
+	}*/
+	span .gatsby-resp-image-wrapper {
+			width: 100% !important;
+		}
+	
+	blockquote {
+		font-family: $special;
+		text-align: center;
+		@extend .f4;
+		@extend .ma5-l;
+		@extend .fw7;
+		line-height: 2;
+		border: none;
+		font-style: normal;
+		@extend .gray;
+	}
+
+}
+
+
+
+
+

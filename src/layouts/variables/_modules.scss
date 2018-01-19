@@ -1,0 +1,15 @@
+hr {
+	height: 2px;
+	background: $light;
+	
+}
+
+.cs {
+	@extend .w-60-ns, .w-100, .center, .pa2;
+	&-fw {
+		@extend .w-100-ns;
+	}
+	&-afw{
+		@extend .w-80-ns, .center;
+	}
+}

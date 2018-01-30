@@ -1,23 +1,61 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import './styles.scss'
+import Footer from '../components/footer'
 
 class Template extends React.Component {
   render() {
     const { location, children } = this.props
+    let header
 
+    let rootPath = `/`
+    if (typeof __PREFIX_PATHS__ !== `undefined` && __PREFIX_PATHS__) {
+      rootPath = __PATH_PREFIX__ + `/`
+    }
+
+    if (location.pathname === rootPath) {
+      header = (
+       <div className="mainheader"> 
+        <div className="sec-2">
+          <div className="hl">
+            <Link to={'/'}>
+                <h1 className ='icons__logo'>Shreyas Achar</h1>
+            </Link>
+          </div>
+          <div className="pr">
+            <Link to={'/'}>
+                <h1 className ='heading__logotype'>Shreyas Achar</h1>
+            </Link>
+          </div>
+        </div>
+        </div>
+      )
+    } else {
+      header = (
+      <div className="mainheader"> 
+        <div className="sec-2 mainheader">
+          <div className="hl">
+            <Link to={'/'}>
+                <h1 className ='icons__logo'>Shreyas Achar</h1>
+            </Link>
+          </div>
+          <div className="pr">
+            <Link to={'/'}>
+                <h1 className ='heading__logotype'></h1>
+            </Link>
+          </div>
+        </div>
+        </div>
+      )
+    }
     return (
       <div>
+        {header}
         {children()}
+        <Footer />
       </div>
     )
   }
-}
-
-Template.propTypes = {
-  children: React.PropTypes.func,
-  location: React.PropTypes.object,
-  route: React.PropTypes.object,
 }
 
 export default Template

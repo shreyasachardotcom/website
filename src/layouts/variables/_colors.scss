@@ -1,44 +1,12 @@
 $dark:	#343a40;
-$gray: 	#adb5bd;
+$gray: 	#9AA2AA;
 $light: #dee2e6;
+$pblue: #21409A;
 
 $colors: 
   ('blue', #E4E7F1, #5472cc),
   ('green', #DAFBF1, #12B886),
   ('red', #fcd9d9, #f03e3e),
   ('violet', #E5E5F0, #5F5DA2),
-  ('gray', #f2f3f4, #868E96);
+  ('orange', #fff3bf, #fd7e14);
 
-.captions  {
-	span {
-		color: $light !important;
-	}
-}
-
-@each $color in $colors {
-    $name: nth($color, 1);
-    $bg: nth($color, 2);
-    $txt: nth($color, 3);
-    ._#{$name} { 
-
-    .cs-section, a {
-		background-color: $bg;
-	}
-	a {
-		background-color: $txt;
-		color: white;
-	}
-	.captions{
-			color: $txt;
-	}
-	blockquote {
-		color: $txt;
-		font-size: 1.4em;
-	}
-	.blogpost{
-	 a{
-		@extend .pa1;
-		}
-
-    }
-}}

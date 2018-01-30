@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow:400,500,600,700,900|Source+Serif+Pro');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700,900');
+
 
 
 $body_type: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$headings: 'Barlow', $body_type;
 $special : "Playfair Display", serif;
 
-$line-height: 1.8;
+$line-height: 1.85;
+.headstyle{font-family: $body_type; line-height: $line-height; @extend .ttu, .fw7, .tracked-mega; text-transform: uppercase; text-decoration:none;}
+.special{font-family: $special}
 
 body{
 	font-family: $body_type;
@@ -13,40 +15,88 @@ body{
 	letter-spacing: 0.01em;
 }
 
-h1, h2, h3, h4, h5, h6 {font-family: $headings; line-height: $line-height; @extend .fw5; text-decoration: none; letter-spacing: inherit; text-transform: none;}
+h1, h2, h3, h4, h5, h6 {@extend .headstyle;}
 
 a {	text-decoration: none; 
 	box-shadow: none;
 	color: inherit;
+	@extend .dim;
     &:hover {
    		text-decoration: none;
    	} 
 }
 
 
-/*.indexpage {
-	background-color:$light;
-}*/
 
-.section-title {overflow: hidden; }
-.section-title:after {
-    content:"";
-    display: inline-block;
-    height: 0.9em;
-    vertical-align: bottom;
-    width: 100%;
-    margin-right: -100%;
-    margin-left: 2em;
-    border-top: 1px solid darken($light, 10%);
-}    
-
-.captions, h6 {
-	@extend .b, .ttu, .tracked-mega, .f7;
-	color: $gray;
-	span {
-		color: darken($light, 20%);
-	}
-	
+.heading{
+ &__gray {@extend .headstyle; color: $gray;}
+ &__white {@extend .headstyle; color: white;}
+ &__logotype {@extend .f2, .fw8, .mt0,; font-family: $special; text-transform: none; letter-spacing: 0;}
+ &__main{font-family: $special; letter-spacing: 0; text-transform: none; }
 }
 
-.colophon {color: $gray}
+.section-title, .section-title span {@extend .b, .ttu, .tracked-mega, .f5; color: #21409A !important}
+
+.colophon {color: $gray;
+	span {
+	color: $dark;
+	}
+}
+
+.blogpost {
+	
+	blockquote {
+		font-family: $special;
+		text-align: center;
+		@extend .f4;
+		@extend .ma4-l;
+		@extend .fw7;
+		line-height: 2;
+		border: none;
+		font-style: normal;
+		@extend .gray;
+	}
+
+}
+
+.captions {
+	@extend .headstyle, .f7;
+	color: $gray;
+	span {
+		color: $light;
+	}
+	&__white {
+		@extend .headstyle, .f7;
+		color: white;
+	}
+}
+
+
+
+@each $color in $colors {
+    $name: nth($color, 1);
+    $bg: nth($color, 2);
+    $txt: nth($color, 3);
+    ._#{$name} { 
+	a {
+		border-bottom: 2px solid $txt;
+		padding-bottom: 2px;
+	}
+	blockquote {
+		color: $txt;
+		font-size: 1.4em;
+	}
+	.captions__st {
+
+	 	@extend .captions; color: $txt;
+	 	span {color: $gray;}
+	 }
+	.blogpost{
+
+	 a{
+	 	border-bottom: 2px solid $txt;
+		}
+	.heading__color {@extend .headstyle; color: $txt}
+
+    }
+}}

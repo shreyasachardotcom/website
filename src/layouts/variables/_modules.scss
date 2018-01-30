@@ -4,12 +4,39 @@ hr {
 	
 }
 
+
 .cs {
-	@extend .w-60-ns, .w-100, .center, .pa2;
+	@extend .w-60-ns, .w-100, .center, .pa2, .pv4;
 	&-fw {
-		@extend .w-100-ns;
+		@extend .w-100-ns, .pv4;
 	}
 	&-afw{
-		@extend .w-80-ns, .center;
+		@extend .w-80-ns, , .pv0, .center;
 	}
+}
+
+.indexpage, .mainheader, *{
+.sec-2 {
+	@extend .cf, .ph3, .ph5-ns, .pt5, .pb3, .w-100, .center;
+	.hl {
+		@extend .f5, .fn, .fl-ns, .w-20-ns, .w-30-m, .pr4-ns;
+	}
+	.pr { @extend .fn, .fl-ns, .w-70-ns, .w-100, .f5;
+
+	}
+}}
+
+.blogpost{
+	.sec-2 {
+	@extend .cf, .ph3, .ph5-ns, .pt5, .pb3,.w-100-ns, .w-100, .center;
+	.hl {
+		@extend .f5, .fn, .fl-ns, .w-20-ns, .pr4-ns;
+	}
+	.pr { @extend .fn, .fl-ns, .w-60-ns, .f5;
+
+	}
+	.pr-r { @extend .fn, .fl-ns, .w-80-ns, .f5;
+
+	}
+}
 }

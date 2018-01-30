@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Shreyas Achar',
     author: 'Shreyas Achar',
-    description: 'Personal Website',
+    description: 'Product Design & Business Consultant',
     siteUrl: 'https://shreyasachar.com',
   },
   pathPrefix: '/',

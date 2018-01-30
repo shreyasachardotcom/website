@@ -19,7 +19,7 @@ class Template extends React.Component {
         <div className="sec-2">
           <div className="hl">
             <Link to={'/'}>
-                <h1 className ='icons__logo'>Shreyas Achar</h1>
+                <h1 className ='icons__logo dn dib-ns'>Shreyas Achar</h1>
             </Link>
           </div>
           <div className="pr">

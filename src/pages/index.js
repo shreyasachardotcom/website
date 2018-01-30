@@ -65,6 +65,9 @@ class BlogIndex extends React.Component {
 
                         <p> I enjoy humour, music and all things food.</p>
 
+
+                        <a className="f6 link dim br1 ba pa3 mt4 dib black" href="https://www.dropbox.com/s/06a8c27d51deqon/ShreyasAchar_CV2018.pdf?dl=1" download><span className="dib mr2 v-btm icons__pdf">PDF</span> <span className="captions">Download Resume</span></a>
+
                     </div> 
                   </div>
           </div>

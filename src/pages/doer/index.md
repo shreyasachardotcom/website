@@ -226,7 +226,7 @@ The animated versions of these SVGs can be viewed on the <a href="https://www.ge
             <p class="captions__white"></p>
           </div>
 <div class="pr-r">
-<p class="captions" style="color: white">Responsive Material Design HTML4 Event Invitation - <a href="./Doer Event Mail.html" download>Download Link</a></p>
+<p class="captions" style="color: white">Responsive Material Design HTML4 Event Invitation - <a href="https://www.dropbox.com/s/auo7ubmrqi6gnh1/Doer%20Event%20Mail.html?dl=1" download>Download Link</a></p>
 
 <img src="./mockups/mail_preview.png" alt="HTML Mail Event Invitation">
 

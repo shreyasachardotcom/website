@@ -17,7 +17,7 @@ hr {
 
 .indexpage, .mainheader, *{
 .sec-2 {
-	@extend .cf, .ph3, .ph5-ns, .pt5, .pb3, .w-100, .center;
+	@extend .cf, .ph3, .ph5-ns, .pt5-ns, .pt2, .mb4, .w-100, .center;
 	.hl {
 		@extend .f5, .fn, .fl-ns, .w-20-ns, .w-30-m, .pr4-ns;
 	}
@@ -28,7 +28,7 @@ hr {
 
 .blogpost{
 	.sec-2 {
-	@extend .cf, .ph3, .ph5-ns, .pt5, .pb3,.w-100-ns, .w-100, .center;
+	@extend .cf, .ph3, .ph5-ns, .pt5-ns, .pt2, .mb4, .w-100, .center;
 	.hl {
 		@extend .f5, .fn, .fl-ns, .w-20-ns, .pr4-ns;
 	}

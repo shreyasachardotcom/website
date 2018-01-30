@@ -8,8 +8,8 @@ class Footer extends React.Component {
     	<div className="sec-2">
           <div className="hl">
             <ul className="list mh1">
-				<a href="mailto:mail@shreyasachar.com" className="link dim"><li className="dib mr4 icons__email">E-mail</li></a>
-  				<a href="https://www.linkedin.com/in/shreyas-achar-392b94134/" className="link dim"><li className="dib mr4 icons__linkedin">LinkedIn</li></a>
+				<a href="mailto:mail@shreyasachar.com" target="_blank" className="link dim"><li className="dib mr4 icons__email">E-mail</li></a>
+  				<a href="https://www.linkedin.com/in/shreyas-achar-392b94134/" target="_blank" className="link dim"><li className="dib mr4 icons__linkedin">LinkedIn</li></a>
 			</ul> 
           </div>
 <div className="pr-r">

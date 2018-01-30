@@ -23,9 +23,7 @@ class Template extends React.Component {
             </Link>
           </div>
           <div className="pr">
-            <Link to={'/'}>
                 <h1 className ='heading__logotype'>Shreyas Achar</h1>
-            </Link>
           </div>
         </div>
         </div>
@@ -40,9 +38,7 @@ class Template extends React.Component {
             </Link>
           </div>
           <div className="pr">
-            <Link to={'/'}>
                 <h1 className ='heading__logotype'></h1>
-            </Link>
           </div>
         </div>
         </div>

@@ -180,7 +180,7 @@ The animated versions of these SVGs can be viewed on the <a href="https://www.ge
 
 <div class="fl w-50 w-25-ns">
 
-<p class="captions__white tc">Folio</p>
+<p class="captions__white tc">Files</p>
 
 <img src="./mockups/fileview.png" alt="File View">
 

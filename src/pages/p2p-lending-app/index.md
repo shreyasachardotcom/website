@@ -138,17 +138,17 @@ While creating the mockups, we tried to create an Atomic Design system that woul
           </div>
 <div class="pr-r">
 <div class="cf">
-<div class="fl w-third w-25-ns">
+<div class="fl w-100 w-25-ns">
 
 <img src="./design/mockups/borrow/primary.png" alt="Homescreen">
 
 </div>
-<div class="fl w-third w-25-ns">
+<div class="fl w-50 w-25-ns">
 
 <img src="./design/mockups/borrow/trends.png" alt="Market Trends">
 
 </div>
-<div class="fl w-third w-25-ns">
+<div class="fl w-50 w-25-ns">
 
 <img src="./design/mockups/borrow/inputs.png" alt="Inputs">
 
@@ -195,22 +195,22 @@ While creating the mockups, we tried to create an Atomic Design system that woul
 <div class="pr-r">
 <div class="cf">
   <p class="captions">Manual Lending Journey</p>
-<div class="fl w-25 w-25-ns">
+<div class="fl w-50 w-25-ns">
 
 <img src="./design/mockups/lend/market.png" alt="Market Trends">
 
 </div>
-<div class="fl w-25">
+<div class="fl w-50 w-25-ns">
 
 <img src="./design/mockups/lend/inputs.png" alt="Inputs">
 
 </div>
-<div class="fl w-25">
+<div class="fl w-50 w-25-ns">
 
 <img src="./design/mockups/lend/criteria.png" alt="Criteria">
 
 </div>
-<div class="fl w-25">
+<div class="fl w-50 w-25-ns">
 
 <img src="./design/mockups/lend/friends.png" alt="Tier Selection">
 
@@ -220,22 +220,22 @@ While creating the mockups, we tried to create an Atomic Design system that woul
 
 <div class="cf mt5-ns">
   <p class="captions">Guided Lending Journey</p>
-<div class="fl w-25">
+<div class="fl w-25-ns">
 
 <img src="./design/mockups/lend/interest_.png" alt="Interest Selection">
 
 </div>
-<div class="fl w-25">
+<div class="fl w-50 w-25-ns">
 
 <img src="./design/mockups/lend/principle_.png" alt="Principle Selection">
 
 </div>
-<div class="fl w-25">
+<div class="fl w-50 w-25-ns">
 
 <img src="./design/mockups/lend/tenure_.png" alt="Tenure Selection">
 
 </div>
-<div class="fl w-25">
+<div class="fl w-50 w-25-ns">
 
 <img src="./design/mockups/lend/selected_.png" alt="Criteria Selected">
 
@@ -245,22 +245,22 @@ While creating the mockups, we tried to create an Atomic Design system that woul
 
 <div class="cf mt5-ns">
   <p class="captions">Confirmations</p>
-<div class="fl w-25">
+<div class="fl w-50 w-25-ns">
 
 <img src="./design/mockups/lend/confirm.png" alt="Confirmations">
 
 </div>
-<div class="fl w-25">
+<div class="fl w-50 w-25-ns">
 
 <img src="./design/mockups/lend/authorize.png" alt="Authorization">
 
 </div>
-<div class="fl w-25">
+<div class="fl w-50 w-25-ns">
 
 <img src="./design/mockups/lend/complete.png" alt="Transaction Complete">
 
 </div>
-<div class="fl w-25">
+<div class="fl w-50 w-25-ns">
 
 <img src="./design/mockups/lend/passbook.png" alt="Passbook">
 

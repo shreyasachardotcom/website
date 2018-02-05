@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Shreyas Achar',
     author: 'Shreyas Achar',
-    description: 'Product Design & Business Consultant',
+    description: 'Product Design & Strategy Consultant',
     siteUrl: 'https://shreyasachar.com',
   },
   pathPrefix: '/',
@@ -42,7 +42,8 @@ module.exports = {
             options: {
               linkImagesToOriginal: false,
               maxWidth: 1600,
-              sizeByPixelDensity: true,
+              sizeByPixelDensity: false,
+              backgroundColor: 'transparent'
             },
           },
           {
@@ -62,7 +63,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-113409084-1`,
+        anonymize: true,
       },
     },
     `gatsby-plugin-feed`,

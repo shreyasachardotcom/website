@@ -23,7 +23,7 @@ featuredImage: "./featureImage.png"
           </div>
 <div class="pr">
 
-I was approached by a few senior investment and banking professionals with an idea of creating a peer-to-peer lending app for a specific demographic in India. They aim to disrupt the notorious pay-day loans and the unofficial lending industries, prevalent there. The app's ease of adoption and use is facilitated being through the usage of the Unified Payments Interface framework, launched recently by the Govt of India. 
+I was approached by a few senior investment and banking professionals with an idea of creating a peer-to-peer lending app for a specific target demographic in India. They aim to disrupt the notorious pay-day loans and the unofficial lending industries, prevalent there. The app's ease of adoption and use is facilitated being through the usage of the Unified Payments Interface framework, launched recently by the Govt of India. 
 
 </div>
 

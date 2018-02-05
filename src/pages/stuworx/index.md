@@ -14,7 +14,7 @@ featuredImage: "./featureImage.png"
           </div>
 <div class="pr">
 
-The very capable and talented engineering team at Stuworx had taken the core idea about the platform, ample inspiration from similar services around the web, and the most prominent and popular Design Language around - Material Design, and come up with a UI that didn’t necessarily address the requirements at hand, and wasn’t too aesthetically appealing either. The founders worried this wouldn’t go far in making a serious first impression with the target demographic; and even if it did, the students wouldn’t come back. 
+The capable and talented engineering team at Stuworx had taken the core idea about the platform, ample inspiration from similar services around the web, and the most prominent and popular Design Language around - Material Design, and come up with a UI that didn’t necessarily address the requirements at hand, and wasn’t too aesthetically appealing either. The founders worried this wouldn’t go far in making a serious first impression with the target demographic; and even if it did, the students wouldn’t come back. 
 
 I was asked to help the team redesign the overall product design and user-experience while still utilising Material Design principles, considering the team had, and continues to use, [Angular Material](https://material.angularjs.org/latest/) as their frontend-framework of choice. 
 

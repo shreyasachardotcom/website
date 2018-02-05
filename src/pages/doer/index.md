@@ -7,8 +7,6 @@ description: Creating a modern calendering and personal productivity app.
 featuredImage: "./featureImage.png"
 ---
 
-![Feature Image](./featureImage.png)
-
 <img src="./featureImage.png" alt="Doer Featured Image">
 
 <div class="sec-2">

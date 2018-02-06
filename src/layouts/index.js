@@ -29,7 +29,7 @@ class Template extends React.Component {
         </Helmet> 
         <div className="sec-2">
           <div className="hl">
-            <Link to={'/'} alt="Home">
+            <Link to={'/'} aria-label="Home">
                 <h1 className ='icons__logo dn dib-ns'>Shreyas Achar</h1>
             </Link>
           </div>
@@ -44,7 +44,7 @@ class Template extends React.Component {
       <div className="mainheader"> 
         <div className="sec-2 mainheader">
           <div className="hl">
-            <Link to={'/'} alt="Home">
+            <Link to={'/'} aria-label="Home">
                 <h1 className ='icons__logo'>Shreyas Achar</h1>
             </Link>
           </div>

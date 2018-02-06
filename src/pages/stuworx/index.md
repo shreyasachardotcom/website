@@ -6,7 +6,8 @@ type: Case Study
 description: Design for an EdTech platform aimed at Higher-Ed students. 
 featuredImage: "./featureImage.png"
 ---
-<img src="./featureImage.png" alt="Stuworx Banner">
+
+<img src="./featureImage.png" alt="Stuworx Banner" style="background-size: cover">
 
 <div class="sec-2">
           <div class="hl">
@@ -64,7 +65,7 @@ It was necessary for the whole team to come together and contemplate on the user
 <div class="hl">
 <p class="heading__gray"></p>
 </div>
-<div class="pr-r">
+<div class="pr">
 <img src="./photo.png" alt="Workshop" />
 </div>
 </div>
@@ -76,7 +77,7 @@ It was necessary for the whole team to come together and contemplate on the user
           <div class="hl">
                 <p class="heading__gray">Branding</p>
           </div>
-<div class="pr-r">
+<div class="pr">
 
 <div class="cf">
 <div class="fl w-50-ns w-100 pr2 pr4-ns">
@@ -101,7 +102,7 @@ It was necessary for the whole team to come together and contemplate on the user
           <div class="hl">
                 <p class="heading__white">Mockups</p>
           </div>
-<div class="pr-r">
+<div class="pr">
   <p class="captions" style="color: white">Homepage </p>
 
 <img src="./mockups/homepage.png" alt="Home Page">
@@ -114,7 +115,7 @@ It was necessary for the whole team to come together and contemplate on the user
           <div class="hl">
             <p></p>
           </div>
-<div class="pr-r">
+<div class="pr">
 
 <p class="captions" style="color: white">Course Details </p>
 
@@ -128,7 +129,7 @@ It was necessary for the whole team to come together and contemplate on the user
           <div class="hl">
             <p></p>
           </div>
-<div class="pr-r">
+<div class="pr">
 <p class="captions" style="color: white">Course and Assessments </p>
 
 <img src="./mockups/assessment.png" alt="Course and Assessments">
@@ -142,7 +143,7 @@ It was necessary for the whole team to come together and contemplate on the user
           <div class="hl">
             <p></p>
           </div>
-<div class="pr-r">
+<div class="pr">
 <p class="captions" style="color: white">Profile</p>
 
 <img src="./mockups/profile.png" alt="Student Profile">

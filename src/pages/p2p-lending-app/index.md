@@ -53,14 +53,15 @@ The team came to me with some of their own back-of-the-napkin mockups, in additi
           <div class="hl">
                 <p class="heading__color">Iteration	</p>
           </div>
-<div class="pr-r">
+<div class="pr">
 
 <img src="./bettermockups.png" alt="Wireframes">
 
 
 </div>
-<p class="captions__st tc ph5-ns pa1">Best Viewed on Large Screen. <br> <span>Mockups list not exhaustive. </span></p>
+
 </div>
+<p class="captions__st tc ph5-ns pa1">Best Viewed on Large Screen. <br> <span>Mockups list not exhaustive. </span></p>
 </div>
 
 
@@ -92,7 +93,7 @@ The team came to me with some of their own back-of-the-napkin mockups, in additi
           <div class="hl">
                 <p class="heading__color">Mockups</p>
           </div>
-<div class="pr-r">
+<div class="pr">
 
 While creating the mockups, we tried to create an Atomic Design system that would help maintain a modular structure which would in-turn make development of React or Angular based components easy. 
 </div>

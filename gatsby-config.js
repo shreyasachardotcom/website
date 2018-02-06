@@ -50,7 +50,8 @@ module.exports = {
           type: `image/png`,
         },
       ],
-    },},
+    }
+  },
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -68,6 +69,7 @@ module.exports = {
             options: {
               linkImagesToOriginal: false,
               maxWidth: 1600,
+              quality:50,
               sizeByPixelDensity: false,
               backgroundColor: 'transparent'
             },

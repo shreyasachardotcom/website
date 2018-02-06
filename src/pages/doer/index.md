@@ -102,7 +102,7 @@ featuredImage: "./featureImage.png"
                 <p class="heading__color f6-m">Illustrations</p>
           </div>
 <div class="pr">
-The animated versions of these SVGs can be viewed on the <a href="https://www.getdoer.com" target="_blank">website</a>.
+The animated versions of these SVGs can be viewed on the <a href="https://www.getdoer.com" rel="noopener" target="_blank">website</a>.
 
 ![Illustrations](./illustrations.png)
 
@@ -225,7 +225,7 @@ The animated versions of these SVGs can be viewed on the <a href="https://www.ge
             <p class="captions__white"></p>
           </div>
 <div class="pr-r">
-<p class="captions" style="color: white">Responsive Material Design HTML4 Event Invitation - <a href="https://www.dropbox.com/s/auo7ubmrqi6gnh1/Doer%20Event%20Mail.html?dl=1" download>Download Link</a></p>
+<p class="captions" style="color: white">Responsive Material Design HTML4 Event Invitation - <a href="https://www.dropbox.com/s/auo7ubmrqi6gnh1/Doer%20Event%20Mail.html?dl=1" rel="noopener" download>Download Link</a></p>
 
 <img src="./mockups/mail_preview.png" alt="HTML Mail Event Invitation">
 
@@ -242,7 +242,7 @@ The animated versions of these SVGs can be viewed on the <a href="https://www.ge
 <div class="cs-fw" style="background-color: #40444f; color: white">
 <div class="cs tc">
 
-Doer is still in development. Interested users can sign up over at the <a href="https://www.getdoer.com" target="_blank">official website</a>
+Doer is still in development. Interested users can sign up over at the <a href="https://www.getdoer.com" rel="noopener" target="_blank">official website</a>
 
 </div>
 </div>

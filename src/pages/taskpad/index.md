@@ -164,7 +164,7 @@ We took a modular approach to the re-design and identified key areas to address 
           </div>
 <div class="pr">
 
-<p>The current design of the app can be viewed on the Play Store <a href="https://play.google.com/store/apps/details?id=com.pv.lite.taskpad&hl=en" target="_blank">here</a></p>
+<p>The current design of the app can be viewed on the Play Store <a href="https://play.google.com/store/apps/details?id=com.pv.lite.taskpad&hl=en" rel="noopener" target="_blank">here</a></p>
 
 </div>
 </div>

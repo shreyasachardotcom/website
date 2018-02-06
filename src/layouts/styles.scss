@@ -25,6 +25,9 @@
         &__email{
         	@extend.icon; background: url(assets/email.svg);
         }
+        &__medium{
+            @extend.icon; background: url(assets/medium.svg);
+        }
         &__pdf{
             @extend.icon; background: url(assets/pdf.svg); background-size: 24px !important; width: 24px !important; height: 24px !important;;
         }

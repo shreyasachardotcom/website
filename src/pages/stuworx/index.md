@@ -160,7 +160,7 @@ It was necessary for the whole team to come together and contemplate on the user
 <div class="cs-fw" style="background-color: #343A40; color: white">
 <div class="cs">
 
-<p class="tc pv4">Stuworx is currently is being used by students from 2 colleges as part of the beta program. Please visit the <a href="https://www.stuworx.com" target="_blank">Official Site</a> to check it out.</p>
+<p class="tc pv4">Stuworx is currently is being used by students from 2 colleges as part of the beta program. Please visit the <a href="https://www.stuworx.com" rel="noopener" target="_blank">Official Site</a> to check it out.</p>
 
 </div>  
 </div>

@@ -7,7 +7,7 @@ description: Design for an EdTech platform aimed at Higher-Ed students.
 featuredImage: "./featureImage.png"
 ---
 
-<img src="./featureImage.png" alt="Stuworx Banner" style="background-size: cover">
+<img src="./featureImage.png" alt="Stuworx Banner" class="bannerImage">
 
 <div class="sec-2">
           <div class="hl">
@@ -15,7 +15,7 @@ featuredImage: "./featureImage.png"
           </div>
 <div class="pr">
 
-The capable and talented engineering team at Stuworx had taken the core idea about the platform, ample inspiration from similar services around the web, and the most prominent and popular Design Language around - Material Design, and come up with a UI that didn’t necessarily address the requirements at hand, and wasn’t too aesthetically appealing either. The founders worried this wouldn’t go far in making a serious first impression with the target demographic; and even if it did, the students wouldn’t come back. 
+The capable and skilled engineering team at Stuworx had taken the core idea about the platform, ample inspiration from similar services around the web, and the most prominent and popular Design Language around - Material Design, and come up with a UI that didn’t necessarily address the requirements at hand, and wasn’t too aesthetically appealing either. The founders worried this wouldn’t go far in making a serious first impression with the target demographic; and even if it did, the students wouldn’t come back. 
 
 I was asked to help the team redesign the overall product design and user-experience while still utilising Material Design principles, considering the team had, and continues to use, [Angular Material](https://material.angularjs.org/latest/) as their frontend-framework of choice. 
 
@@ -102,7 +102,7 @@ It was necessary for the whole team to come together and contemplate on the user
           <div class="hl">
                 <p class="heading__white">Mockups</p>
           </div>
-<div class="pr">
+<div class="pr-r">
   <p class="captions" style="color: white">Homepage </p>
 
 <img src="./mockups/homepage.png" alt="Home Page">
@@ -115,7 +115,7 @@ It was necessary for the whole team to come together and contemplate on the user
           <div class="hl">
             <p></p>
           </div>
-<div class="pr">
+<div class="pr-r">
 
 <p class="captions" style="color: white">Course Details </p>
 
@@ -129,7 +129,7 @@ It was necessary for the whole team to come together and contemplate on the user
           <div class="hl">
             <p></p>
           </div>
-<div class="pr">
+<div class="pr-r">
 <p class="captions" style="color: white">Course and Assessments </p>
 
 <img src="./mockups/assessment.png" alt="Course and Assessments">
@@ -143,7 +143,7 @@ It was necessary for the whole team to come together and contemplate on the user
           <div class="hl">
             <p></p>
           </div>
-<div class="pr">
+<div class="pr-r">
 <p class="captions" style="color: white">Profile</p>
 
 <img src="./mockups/profile.png" alt="Student Profile">

@@ -3,7 +3,7 @@ title: P2P Lending App
 date: "2017-01-01T22:40:32.169Z"
 theme: _green
 type: Case Study
-description: Designing a Money-lending app for the Indian market. 
+description: Designing a P2P lending app for the Indian market. 
 featuredImage: "./featureImage.png"
 
 ---
@@ -51,7 +51,7 @@ The team came to me with some of their own back-of-the-napkin mockups, in additi
 <div class="cs-fw" style="background-color: #E8E8EC">
 <div class="sec-2">
           <div class="hl">
-                <p class="heading__color">Iteration	</p>
+                <p class="heading__gray">Iteration	</p>
           </div>
 <div class="pr">
 
@@ -103,7 +103,7 @@ While creating the mockups, we tried to create an Atomic Design system that woul
 <div class="cs-fw" style="background-color: #CDE5E9">
 <div class="sec-2">
           <div class="hl">
-                <p class="captions">Onboarding</p>
+                <p class="heading__gray f7">Onboarding</p>
           </div>
 <div class="pr-r">
 <div class="cf">
@@ -135,7 +135,7 @@ While creating the mockups, we tried to create an Atomic Design system that woul
 <div class="cs-fw" style="background-color: #D2F0E6">
 <div class="sec-2">
           <div class="hl">
-                <p class="captions__st">Borrowing Journey</p>
+                <p class="heading__gray f7">Borrowing Journey</p>
           </div>
 <div class="pr-r">
 <div class="cf">
@@ -191,11 +191,11 @@ While creating the mockups, we tried to create an Atomic Design system that woul
 <div class="cs-fw" style="background-color: #B9D2E3">
 <div class="sec-2">
           <div class="hl">
-                <p class="captions__st" style="color: #1862AB">Lending Journey</p>
+                <p class="heading__gray f7">Lending Journey</p>
           </div>
 <div class="pr-r">
 <div class="cf">
-  <p class="captions">Manual Lending Journey</p>
+  <p class="captions__white">Manual Lending Journey</p>
 <div class="fl w-50 w-25-ns">
 
 <img src="./design/mockups/lend/market.png" alt="Market Trends">
@@ -220,7 +220,7 @@ While creating the mockups, we tried to create an Atomic Design system that woul
 </div>
 
 <div class="cf mt5-ns">
-  <p class="captions">Guided Lending Journey</p>
+  <p class="captions__white">Guided Lending Journey</p>
 <div class="fl w-25-ns">
 
 <img src="./design/mockups/lend/interest_.png" alt="Interest Selection">
@@ -245,7 +245,7 @@ While creating the mockups, we tried to create an Atomic Design system that woul
 </div>
 
 <div class="cf mt5-ns">
-  <p class="captions">Confirmations</p>
+  <p class="captions__white">Confirmations</p>
 <div class="fl w-50 w-25-ns">
 
 <img src="./design/mockups/lend/confirm.png" alt="Confirmations">

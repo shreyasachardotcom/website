@@ -37,11 +37,11 @@ class BlogIndex extends React.Component {
                             const description = get(node, 'frontmatter.description') || node.fields.slug
                             return (
 
-                            <div key = { node.fields.slug } className = "fl w-50-l pr4 mt1 pv2 mb4" >
-                            <div className = "f5 b mb2 pr3-ns" >
+                            <div key = { node.fields.slug } className = "fl w-50-l pr4 pb2 pt0 mb4" >
+                            <p className = "f5 b mb2 pr3-ns lh-body" >
                                 <Link to = { node.fields.slug } > { node.frontmatter.description } </Link> 
-                            </div> 
-                            <div className='captions'>{ node.frontmatter.title } <span> • </span> { node.frontmatter.date }</div>
+                            </p> 
+                            <div className='captions__dark'>{ node.frontmatter.title } <span> • </span> { node.frontmatter.date }</div>
                             </div>
                             )
                             })
@@ -66,7 +66,7 @@ class BlogIndex extends React.Component {
                         <p> I enjoy humour, music and all things food.</p>
 
 
-                        <a className="f6 link dim br1 ba pa3 mt4 dib black" href="https://www.dropbox.com/s/ojmw5h0ti6yxpci/ShreyasAchar_CV2018%202.pdf?dl=1" target="_blank" rel="noopener"><span className="dib mr2 v-btm icons__pdf">PDF</span> <span className="captions">Download Resume</span></a>
+                        <a className="f6 link dim br1 ba pa3 mt4 dib" href="https://www.dropbox.com/s/ojmw5h0ti6yxpci/ShreyasAchar_CV2018%202.pdf?dl=1" rel="noopener"><span className="dib mr2 v-btm icons__pdf">PDF</span> <span className="captions__dark">Download Resume</span></a>
 
                     </div> 
                   </div>

@@ -171,11 +171,11 @@ We took a modular approach to the re-design and identified key areas to address 
 
 <div class="sec-2">
           <div class="hl">
-                <p class="heading__gray">Re-design</p>
+                <p class="heading__color">Redesign</p>
           </div>
 <div class="pr">
 
-<p class="captions">Default Views</p>
+<p class="captions__white">Default Views</p>
 The newer, more aesthetic Card View and Expanded View have more information packed in the same space and utilise iconography to simplify the interface.
 
 <div class="cf mt5">
@@ -206,7 +206,7 @@ The newer, more aesthetic Card View and Expanded View have more information pack
           </div>
 <div class="pr-r">
 
-<p class="captions">Creation of Tasks</p>
+<p class="captions__white">Creation of Tasks</p>
 <p class="w-80-ns">The newer method of creating tasks makes the user-experience smoother by using background drawers instead of interrupting dialogs, giving visual confirmations, and relegating infrequently used features to the expanded view. </p>
 
 <div class="cf mt5">
@@ -245,12 +245,12 @@ The newer, more aesthetic Card View and Expanded View have more information pack
 <div class="cf mt5">
 
 <div class="fl w-50 w-25-ns">
-<p class="captions tc">Detailed View/Edit</p>
+<p class="captions__white tc">Detailed View/Edit</p>
 <img src="./mockups/viewedit.png" alt="Detailed View/Edit">
 </div>
 
 <div class="fl w-50 w-25-ns">
-<p class="captions tc">User Profile</p>
+<p class="captions__white tc">User Profile</p>
 <img src="./mockups/profile.png" alt="User Profile with Settings">
 </div>
 

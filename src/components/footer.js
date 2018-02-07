@@ -5,7 +5,7 @@ class Footer extends React.Component {
   render() {
     return(
 
-    	<div className="sec-2">
+    	<div className="sec-2 footer">
           <div className="hl">
             <ul className="list pl0 footer__menu">
 				  <li className="dib mr4 icons__email"><a href="mailto:mail@shreyasachar.com" target="_blank" rel="noopener" className="link dim">E-mail</a></li>

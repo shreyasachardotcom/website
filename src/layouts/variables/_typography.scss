@@ -29,15 +29,15 @@ a {	text-decoration: none;
 
 
 .heading{
- &__gray {@extend .headstyle; color: $gray;}
+ &__gray {@extend .headstyle; color: white; background-color: $dark; width: min-content; padding: 0 0.5em;}
  &__white {@extend .headstyle; color: white;}
- &__logotype {@extend .f2, .fw8, .mt0,; font-family: $special; text-transform: none; letter-spacing: 0;}
+ &__logotype {@extend .f2, .mt0, .fw8; font-family: $special; text-transform: none; letter-spacing: 0;}
  &__main{font-family: $special; letter-spacing: 0; text-transform: none; }
 }
 
 .section-title, .section-title span {@extend .b, .ttu, .tracked-mega, .f5; color: #21409A !important}
 
-.colophon {color: $gray;
+.colophon {color: $dark;
 	span {
 	color: $dark;
 	}
@@ -63,11 +63,18 @@ a {	text-decoration: none;
 	@extend .headstyle, .f7;
 	color: $gray;
 	span {
-		color: $light;
+		color: $gray;
 	}
 	&__white {
 		@extend .headstyle, .f7;
 		color: white;
+	}
+	&__dark {
+		@extend .headstyle, .f7;
+		color: $dark;	
+		span {
+		color: $gray;
+	}
 	}
 }
 
@@ -96,7 +103,8 @@ a {	text-decoration: none;
 	 a{
 	 	border-bottom: 2px solid $txt;
 		}
-	.heading__color {@extend .headstyle; color: $txt}
+	.heading__color {@extend .headstyle; color: white; background-color:$txt; width: min-content; padding: 0 0.5em;}
+	.heading__white {@extend .headstyle; color: $txt; background-color:white; width: min-content; padding: 0 0.5em;}
 
     }
 }}

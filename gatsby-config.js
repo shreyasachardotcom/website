@@ -70,8 +70,8 @@ module.exports = {
             options: {
               linkImagesToOriginal: false,
               maxWidth: 1600,
-              quality:50,
-              sizeByPixelDensity: false,
+              quality:80,
+              sizeByPixelDensity: true,
               backgroundColor: 'transparent'
             },
           },

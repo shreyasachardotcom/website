@@ -17,7 +17,7 @@ class Template extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-       <div className="mainheader"> 
+       <div> 
         <Helmet
         title="Shreyas Achar"
         meta={[
@@ -27,7 +27,7 @@ class Template extends React.Component {
         >
         <html lang="en" />
         </Helmet> 
-        <div className="sec-2">
+        <div className="sec-2 mainheader">
           <div className="hl">
             <Link to={'/'} aria-label="Home">
                 <h1 className ='icons__logo dn dib-ns'>Shreyas Achar</h1>
@@ -41,8 +41,8 @@ class Template extends React.Component {
       )
     } else {
       header = (
-      <div className="mainheader"> 
-        <div className="sec-2 mainheader">
+      <div> 
+        <div className="sec-2">
           <div className="hl">
             <Link to={'/'} aria-label="Home">
                 <h1 className ='icons__logo'>Shreyas Achar</h1>

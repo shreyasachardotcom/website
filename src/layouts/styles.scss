@@ -3,6 +3,9 @@
 @import 'variables/modules';
 @import 'variables/typography';
 
+.indexpage, .mainheader, .footer {background-color: $light}
+
+.mainheader {margin-bottom: 0}
 
 .icon{
 		background-position: 50% !important;

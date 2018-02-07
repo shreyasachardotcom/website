@@ -7,7 +7,7 @@ description: Creating a modern calendering and personal productivity app.
 featuredImage: "./featureImage.png"
 ---
 
-<img src="./featureImage.png" alt="Doer Featured Image" class="w-100-ns">
+<img src="./featureImage.png" alt="Doer Featured Image">
 
 <div class="sec-2">
           <div class="hl">
@@ -35,7 +35,7 @@ featuredImage: "./featureImage.png"
 
 <div class="fl w-100 w-50-ns pa2-ns">
 
-<p class="captions">Smart Agenda</p>
+<p class="captions__st">Smart Agenda</p>
 
 <p>Users wanted a more efficient experience from their main Agenda view. So we created shortcuts called Quick Actions that would let users contact attendees directly, and Smart Icons that would be auto-assigned based on keywords in event titles.</p>
 
@@ -43,7 +43,7 @@ featuredImage: "./featureImage.png"
 
 <div class="fl w-100 w-50-ns pa2-ns">
 
-<p class="captions">Quick Notes</p>
+<p class="captions__st">Quick Notes</p>
 
 <p>For unplanned events, we created a process that would allow users to write notes, record audio and add photos first, and then assign an event title once done. The location and timestamps would be auto-filled to make the user-experience smoother. </p>
 
@@ -61,7 +61,7 @@ featuredImage: "./featureImage.png"
                 <p class="heading"></p>
           </div>
           <div class="pr">
-          <p class="captions">Information Architecture</p>
+          <p class="captions__st">Information Architecture</p>
 
 ![Process Flow](./processflow.png)
 
@@ -75,19 +75,19 @@ featuredImage: "./featureImage.png"
 <div class="pr-r">
 <div class="cf">
 <div class="fl w-100 w-third-ns ph2">
-<p class="captions">Palette</p>
+<p class="captions__dark">Palette</p>
 
 ![Palette](./palette1.png)
 </div>
 <div class="fl w-100 w-third-ns ph2">
 
-<p class="captions">Logo / Icon</p>
+<p class="captions__dark">Logo / Icon</p>
 
 ![Branding](./branding1.png)
 </div>
 <div class="fl w-100 w-third-ns ph2">
 
-<p class="captions">Typography</p>
+<p class="captions__dark">Typography</p>
 
 ![Typography](./typography1.png)
 </div>
@@ -102,7 +102,7 @@ featuredImage: "./featureImage.png"
                 <p class="heading__color">Illustrations</p>
           </div>
 <div class="pr">
-The animated versions of these SVGs can be viewed on the <a href="https://www.getdoer.com" rel="noopener" target="_blank">website</a>.
+<p>The animated versions of these SVGs can be viewed on the <a href="https://www.getdoer.com" rel="noopener" target="_blank">website</a>.</p>
 
 ![Illustrations](./illustrations.png)
 

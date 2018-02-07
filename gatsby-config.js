@@ -7,6 +7,9 @@ module.exports = {
   },
   pathPrefix: '/',
   plugins: [
+    {
+    resolve: `gatsby-plugin-sitemap`
+    },
   
     {
       resolve: `gatsby-plugin-manifest`,

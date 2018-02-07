@@ -37,7 +37,7 @@ class BlogIndex extends React.Component {
                             const description = get(node, 'frontmatter.description') || node.fields.slug
                             return (
 
-                            <div key = { node.fields.slug } className = "fl w-50-l pr4 pb4 mb4" >
+                            <div key = { node.fields.slug } className = "fl w-50-l pr4 mt1 pv2 mb4" >
                             <div className = "f5 b mb2 pr3-ns" >
                                 <Link to = { node.fields.slug } > { node.frontmatter.description } </Link> 
                             </div> 

@@ -15,7 +15,7 @@ body{
 	letter-spacing: 0.01em;
 }
 
-h1, h2, h3, h4, h5, h6 {@extend .headstyle;}
+h1, h2, h3, h4, h5, h6 {@extend .headstyle; color: $dark;}
 
 a {	text-decoration: none; 
 	box-shadow: none;

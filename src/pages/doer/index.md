@@ -99,7 +99,7 @@ featuredImage: "./featureImage.png"
 <div class="cs-fw" style="background-color: #eff2fa">
 <div class="sec-2">
           <div class="hl">
-                <p class="heading__color f6-m">Illustrations</p>
+                <p class="heading__color">Illustrations</p>
           </div>
 <div class="pr">
 The animated versions of these SVGs can be viewed on the <a href="https://www.getdoer.com" rel="noopener" target="_blank">website</a>.

@@ -88,14 +88,14 @@ The team came to me with some of their own back-of-the-napkin mockups, in additi
 </div>
 </div>
 
-<div class="cs-fw" style="background-color: #f1f3f5">
+<div class="cs-fw bg__p2p" style="background-color: #f1f3f5">
 <div class="sec-2">
           <div class="hl">
                 <p class="heading__color">Mockups</p>
           </div>
 <div class="pr">
 
-While creating the mockups, we tried to create an Atomic Design system that would help maintain a modular structure which would in-turn make development of React or Angular based components easy. 
+<p>While creating the mockups, we tried to create an Atomic Design system that would help maintain a modular structure which would in-turn make development of React or Angular based components easy. </p>
 </div>
 </div>
 </div>
@@ -195,7 +195,7 @@ While creating the mockups, we tried to create an Atomic Design system that woul
           </div>
 <div class="pr-r">
 <div class="cf">
-  <p class="captions__white">Manual Lending Journey</p>
+  <p class="captions__dark">Manual Lending Journey</p>
 <div class="fl w-50 w-25-ns">
 
 <img src="./design/mockups/lend/market.png" alt="Market Trends">
@@ -220,7 +220,7 @@ While creating the mockups, we tried to create an Atomic Design system that woul
 </div>
 
 <div class="cf mt5-ns">
-  <p class="captions__white">Guided Lending Journey</p>
+  <p class="captions__dark">Guided Lending Journey</p>
 <div class="fl w-25-ns">
 
 <img src="./design/mockups/lend/interest_.png" alt="Interest Selection">
@@ -245,7 +245,7 @@ While creating the mockups, we tried to create an Atomic Design system that woul
 </div>
 
 <div class="cf mt5-ns">
-  <p class="captions__white">Confirmations</p>
+  <p class="captions__dark">Confirmations</p>
 <div class="fl w-50 w-25-ns">
 
 <img src="./design/mockups/lend/confirm.png" alt="Confirmations">

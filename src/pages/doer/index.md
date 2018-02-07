@@ -24,11 +24,12 @@ featuredImage: "./featureImage.png"
           </div>
 </div>
 
+<div class="cs-fw bg__doer">
 <div class="sec-2">
           <div class="hl">
                 <p class="heading__gray">Research</p>
           </div>
-          <div class="pr">
+<div class="pr">
           		<p>We dug deep into our professional networks and spoke to a lot of professionals across industries. The need, for a product that solved this issue, was ubiquitous and unanimous. However, we understood two critical aspects that would have to be accounted for.</p>
 
 <div class="cf">
@@ -47,11 +48,11 @@ featuredImage: "./featureImage.png"
 
 <p>For unplanned events, we created a process that would allow users to write notes, record audio and add photos first, and then assign an event title once done. The location and timestamps would be auto-filled to make the user-experience smoother. </p>
 
-</div>
-</div>          
-</div>
-</div>
+  </div>
 
+</div>          
+
+</div>
 
 </div>
 
@@ -60,12 +61,13 @@ featuredImage: "./featureImage.png"
           <div class="hl">
                 <p class="heading"></p>
           </div>
-          <div class="pr">
+<div class="pr">
           <p class="captions__st">Information Architecture</p>
 
 ![Process Flow](./processflow.png)
 
-          </div>
+</div>
+</div>
 </div>
 
 <div class="sec-2">

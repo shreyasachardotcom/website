@@ -84,7 +84,7 @@ I also started working with the founders to identify revenue models that took in
 </div>
 
 
-<div class="cs-fw" style="background-color: #F1F3F5">
+<div class="cs-fw bg__tp">
 
 <div class="sec-2">
           <div class="hl">
@@ -92,9 +92,9 @@ I also started working with the founders to identify revenue models that took in
           </div>
 <div class="pr">
 
-We identified the key areas to address and chose to do so with some added tools, resources and frameworks from around the web. 
+<p>We identified the key areas to address and chose to do so with some added tools, resources and frameworks from around the web. </p>
 
-We took a modular approach to the re-design and identified key areas to address that would also leave us with scalable and re-usable elements.
+<p>We took a modular approach to the re-design and identified key areas to address that would also leave us with scalable and re-usable elements.</p>
 
 </div>
 </div>	
@@ -125,32 +125,72 @@ We took a modular approach to the re-design and identified key areas to address 
 </div>
 </div>
 </div>
+</div>
 
-
+<div class="cs-fw" style="background-color: #E9EAED">
+<div class="sec-2">
 <div class="cf">
-<div class="fl w-100 w-50-ns">
+<div class="fl w-100 w-50-ns pr4">
 
-<img src="./design/createtask1.png" alt="Create Task Old Method">
+<p class="heading__gray f7">Create Task</p>
+
+<p>The current method employs a Floating Action Button that brings up a text box to add task titles and buttons to add other details like Date/Time, Groups, List, Role etc
+</p>
+
+<img src="./design/createtask1.png" alt="Create Task Old Method" />
+
+<p>&nbsp;</p>
+<p>Each of the added options brings up a dialog that makes the flow a little inconvenient and then presents no visual confirmation of the data element added. </p>
 
 </div>
-<div class="fl w-100 w-50-ns">
 
-<img src="./design/createtask2.png" alt="Create Task New Method">
+<div class="fl w-100 w-50-ns pr4">
+
+<p class="heading__color f7">Create Task - New Method</p>
+
+<p>The new design uses a translucent drawer behind the text-field without prompting another dialog thereby not distracting users and thus creates a smoother experience. </p>
+
+<img src="./design/createtask2.png" alt="Create Task New Method" />
+
+<p>&nbsp;</p>
+<p>Drawers also carry pre-filled data relevant to the option chosen along with indicators</p>
+
+<img src="./design/createtask3.png" alt="Create Task Drawers" />
 
 </div>
 </div>
+</div>
 
-
-
+<div class="sec-2">
 <div class="cf">
-<div class="fl w-100 w-50-ns">
+<div class="fl w-100 w-50-ns pr4">
 
-<img src="./design/hierarchies1.png" alt="Hierarchies Old Method">
+<p class="heading__gray f7">Hierarchies and Categories</p>
+
+<p>TWe came to understand that the unique proposition of the app lied in its adoption of the Eisenhower Matrix, which also acted as the basis task hierarchy amongst users’ minds. </p>
+
+<p>Another aspect that we wanted to simplify was the redundance created by folders and lists to the matrix-based categorisation. 
+</p>
+
+<img src="./design/hierarchies1.png" alt="Hierarchies Old Method" />
 
 </div>
-<div class="fl w-100 w-50-ns">
 
-<img src="./design/hierarchies2.png" alt="Hierarchies New Method">
+<div class="fl w-100 w-50-ns pr4">
+
+<p class="heading__color f7">Hierarchies and Categories - New Method</p>
+
+
+<p>We relegated the Folders feature to ‘pro’ users as part of the freemium offering and simplified to only having lists and roles. This would aid in de-cluttering the hierarchies.</p>
+
+<img src="./design/hierarchies2.png" alt="Hierarchies New Method" />
+
+
+<p>&nbsp;</p>
+
+<p>We also simplified the add new list options using dialogs</p>
+
+<img src="./design/hierarchies3.png" alt="Hierarchies Creating Roles" />
 
 </div>
 </div>

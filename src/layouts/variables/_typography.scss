@@ -29,7 +29,7 @@ a {	text-decoration: none;
 
 
 .heading{
- &__gray {@extend .headstyle; color: white; background-color: $dark; width: min-content; padding: 0 0.5em;}
+ &__gray {@extend .headstyle; color: white; background-color: $dark; width: fit-content; padding: 0 0.5em;}
  &__white {@extend .headstyle; color: white;}
  &__logotype {@extend .f2, .mt0, .fw8; font-family: $special; text-transform: none; letter-spacing: 0;}
  &__main{font-family: $special; letter-spacing: 0; text-transform: none; }
@@ -103,8 +103,8 @@ a {	text-decoration: none;
 	 a{
 	 	border-bottom: 2px solid $txt;
 		}
-	.heading__color {@extend .headstyle; color: white; background-color:$txt; width: min-content; padding: 0 0.5em;}
-	.heading__white {@extend .headstyle; color: $txt; background-color:white; width: min-content; padding: 0 0.5em;}
+	.heading__color {@extend .headstyle; color: white; background-color:$txt; width: fit-content; padding: 0 0.5em;}
+	.heading__white {@extend .headstyle; color: $txt; background-color:white; width: fit-content; padding: 0 0.5em;}
 
     }
 }}

@@ -10,7 +10,7 @@ class BlogPostTemplate extends React.Component {
     return (
       <article className={post.frontmatter.theme}>
         <header>
-        <div className="w-70-l ph5-ns ph3 mb6-ns mb4 pv4">
+        <div className="w-70-l ph5-ns ph3 mb5 pv4">
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
             <h1 className='lh-title f1-ns pa1'>{post.frontmatter.description}</h1>            
           </div>

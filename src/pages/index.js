@@ -14,7 +14,7 @@ class BlogIndex extends React.Component {
             <div className="indexpage">
                 <Helmet title = { siteTitle }/> 
 
-          <div className="w-70-l ph5-ns ph3 mb6-ns mb4 pv4-ns pv2">
+          <div className="w-70-l ph5-ns ph3 mb5 pv4-ns pv2">
             <p className='lh-title f2-ns f3 pa1 fw6'>Hello, I'm Shreyas — a Product Design & Strategy Consultant from Hyderabad, IN</p>
             <p className="pa1">I work with startups and small teams, helping them craft effective & user-friendly 
                         digital products. My professional experience also allows me to advise product leads and entrepreneurs on 

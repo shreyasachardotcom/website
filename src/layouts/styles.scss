@@ -1,9 +1,9 @@
 @import 'vendor/tachyons';
 @import 'variables/colors';
 @import 'variables/modules';
-@import 'variables/typography';
+@import 'variables/type';
 
-.indexpage, .mainheader, .footer {background-color: $light}
+.indexpage, .mainheader, .footer {}
 
 .mainheader {margin-bottom: 0}
 

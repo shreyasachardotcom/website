@@ -9,236 +9,165 @@ featuredImage: "./featureImage.png"
 
 <img src="./featureImage.png" alt="Doer Featured Image">
 
-<div class="sec-2">
-          <div class="hl">
-                <p class="heading__gray">Concept</p>
-          </div>
-          <div class="pr">
-                <p>As a Business Development professional, I would often come back from meetings or conferences with meeting minutes in my notes app, photos and videos in my gallery and business cards in my pocket. I found that no app tied the information, memories or inspiration to the event itself. This also applied to any other social events I would attend.</p>
-				
-				<p>And so, after performing some preliminary market research, we set out to build the first app that would do just that - bring together your notes, photos and other data files directly into your calendar app. Thus Doer was born.</p>
-
-> What happens at your events, stays with your events.</p>
+<div class="sec-3">
+  <div class="cont">
+    <div class="conttext">
+  <p><a href="https://www.getdoer.com" rel="noopener" target="_blank">Doer</a> is a flagship product from <a href="https://doer.studio" rel="noopener" target="_blank">Doer Studio</a>. Doer is a smart calendar app that allows users to add notes, files, photos and audio recordings to their calendar events.</p>
+</div>
+</div>
+<div class="cont">
+    <div class="conttext">
+  <p class="silver">The idea for Doer came from the realization that none of the apps brought together data captured at events and the events themselves</p>
+</div>
+</div>
+</div>
+<div class="cs-afw">
 
 ![Illustration](./illest.png)
-          </div>
-</div>
-
-<div class="cs-fw bg__doer">
-<div class="sec-2">
-          <div class="hl">
-                <p class="heading__gray">Research</p>
-          </div>
-<div class="pr">
-          		<p>We dug deep into our professional networks and spoke to a lot of professionals across industries. The need, for a product that solved this issue, was ubiquitous and unanimous. However, we understood two critical aspects that would have to be accounted for.</p>
-
-<div class="cf">
-
-<div class="fl w-100 w-50-ns pa2-ns">
-
-<p class="captions__st">Smart Agenda</p>
-
-<p>Users wanted a more efficient experience from their main Agenda view. So we created shortcuts called Quick Actions that would let users contact attendees directly, and Smart Icons that would be auto-assigned based on keywords in event titles.</p>
-
-</div>
-
-<div class="fl w-100 w-50-ns pa2-ns">
-
-<p class="captions__st">Quick Notes</p>
-
-<p>For unplanned events, we created a process that would allow users to write notes, record audio and add photos first, and then assign an event title once done. The location and timestamps would be auto-filled to make the user-experience smoother. </p>
-
-  </div>
-
-</div>          
-
-</div>
 
 </div>
 
 
-<div class="sec-2">
-          <div class="hl">
-                <p class="heading"></p>
-          </div>
-<div class="pr">
-          <p class="captions__st">Information Architecture</p>
+<div class="cs-fw" style="background-color: #F6F6F7">
+<div class="cs">
+  <p class="mb4">We spoke to a lot of professionals across industries. The need, for a product that solved this issue, was ubiquitous and unanimous. We came up with unique features and created a Process Flow, in accordance.</p>
 
 ![Process Flow](./processflow.png)
 
 </div>
 </div>
+
+<div class="w-100-ns">
+
+<div class="cf">  
+
+<div class="fl w-50-ns w-100 ph5-ns ph3 dt vh-75-ns vh-50">
+
+<div class="dtc v-mid">
+
+<h3 class="f3">Branding Process</h3>
+<p class="silver">We came up with a clean, minimal and professional palette considering that the interface would also have colors fetched form users' calendars and photos</p>
+
 </div>
 
-<div class="sec-2">
-<div class="hl">
-                <p class="heading__color">Branding</p>
-          </div>
-<div class="pr-r">
-<div class="cf">
-<div class="fl w-100 w-third-ns ph2">
-<p class="captions__dark">Palette</p>
-
-![Palette](./palette1.png)
 </div>
-<div class="fl w-100 w-third-ns ph2">
+<div class="fl w-50-ns w-100 dt vh-75-ns vh-25">
 
-<p class="captions__dark">Logo / Icon</p>
+<div class="dtc v-mid">
 
-![Branding](./branding1.png)
-</div>
-<div class="fl w-100 w-third-ns ph2">
+<img src="./brand.png" alt="Branding">
 
-<p class="captions__dark">Typography</p>
+</div>
 
-![Typography](./typography1.png)
 </div>
+
 </div>
-</div>
+
 </div>
 
 
 <div class="cs-fw" style="background-color: #eff2fa">
-<div class="sec-2">
-          <div class="hl">
-                <p class="heading__color">Illustrations</p>
-          </div>
-<div class="pr">
-<p>The animated versions of these SVGs can be viewed on the <a href="https://www.getdoer.com" rel="noopener" target="_blank">website</a>.</p>
+
+<div class="cs">
+
+<p>Next up was functional illustrations for the interface, onboarding and marketing. The animated versions of these SVGs can be viewed on the <a href="https://www.getdoer.com" rel="noopener" target="_blank">website</a>.</p>
 
 ![Illustrations](./illustrations.png)
 
 </div>
 </div>
+
+<div class="w-100">
+
+<div class="cf pv4" style="background-color: #5472cc; color: white">
+
+<div class="fl w-50-ns w-100 ph3 ph5-ns dt vh-75-ns vh-25">
+
+<div class="dtc v-mid">
+
+<h3 class="f3">Smarter Calendar</h3>
+
+<p class="light-gray">Everything you’d expect from a modern calendar app, plus some great features like Quick Actions, Smart Icons and Event Attachments</p>
+
 </div>
 
-<div class="cs-fw" style="background-color: #5472cc; color: white;"">
-<div class="sec-2">
-          <div class="hl">
-                <p class="heading__white">Mockups</p>
-          </div>
-<div class="pr-r">
+</div>
+
+<div class="fl w-50-ns w-100 dt vh-75-ns vh-50">
+
+<div class="dtc v-mid">
+
+<img src="./mockups/listdetail.png" alt="List & Details">
+
+</div>
+
+</div>
+
+</div>
+
+<div class="cf pv4" style="background-color: #5472cc; color: white">
+
+<div class="fl w-50-ns w-100 dt vh-75-ns vh-50">
+
+<div class="dtc v-mid">
+
+<img src="./mockups/editor.png" alt="Text Editor">
+
+</div>
+
+</div>
+
+<div class="fl w-50-ns w-100 ph3 ph5-ns dt vh-75-ns vh-25">
+
+<div class="dtc v-mid">
+
+<h3 class="f3">Text Editor</h3>
+
+<p class="light-gray">Users can add multiple notes, photos and audio recordings before, during, or after their events, and view them right within the app.</p>
+
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="w-100 pv4" style="background-color: #84899A; color: white">
+
+<div class="w-60-ns center w-100 ph3 tc">
+
+<h3 class="f3 mt5">Doing it better</h3>
+
+<p class="light-gray">Doer also packs some additional useful features that enhance the user-experience</p>
+</div>
+
+<div class="cs">
+
 <div class="cf">
-<div class="fl w-50 w-25-ns">
 
-<p class="captions__white tc">List View</p>
+<div class="fl w-50-ns w-100 pr2">
 
-<img src="./mockups/listview.png" alt="List View">
+<p class="tc">Date Picker & Homescreen Widget</p>  
 
-</div>
+<img src="./mockups/datewidget.png">
 
-<div class="fl w-50 w-25-ns">
+</div> 
+<div class="fl w-50-ns w-100 pr2">
 
-<p class="captions__white tc">Create Event</p>
+<p class="tc">Material Design Event Mail</p>  
 
-<img src="./mockups/create.png" alt="Create Event">
+<img src="./mockups/mail.png">
 
-</div>
-
-<div class="fl w-50 w-25-ns">
-
-<p class="captions__white tc">Details</p>
-
-<img src="./mockups/details.png" alt="Details">
-
-</div>
-
-<div class="fl w-50 w-25-ns">
-
-<p class="captions__white tc">Folio</p>
-
-<img src="./mockups/folio.png" alt="Folio Tab">
+</div>  
 
 </div>
 
 </div>
 
-
-<div class="cf mt5">
-<div class="fl w-50 w-25-ns">
-
-<p class="captions__white tc">Notes</p>
-
-<img src="./mockups/textpost.png" alt="Notes">
-
-</div>
-
-<div class="fl w-50 w-25-ns">
-
-<p class="captions__white tc">Camera</p>
-
-<img src="./mockups/camera.png" alt="Camera">
-
-</div>
-
-<div class="fl w-50 w-25-ns">
-
-<p class="captions__white tc">Notes Data</p>
-
-<img src="./mockups/noteswith.png" alt="Notes + Data">
-
-</div>
-
-<div class="fl w-50 w-25-ns">
-
-<p class="captions__white tc">Files</p>
-
-<img src="./mockups/fileview.png" alt="File View">
-
-</div>
-
-</div>
-
-<div class="cf mt5">
-<div class="fl w-50 w-25-ns">
-
-<p class="captions__white tc">Date Picker</p>
-
-<img src="./mockups/datepicker.png" alt="Date Picker">
-
-</div>
-
-<div class="fl w-50 w-25-ns">
-
-<p class="captions__white tc">Widget</p>
-
-<img src="./mockups/widget.png" alt="Widget">
-
-</div>
-
-<div class="fl w-50 w-25-ns">
-
-
-</div>
-
-<div class="fl w-50 w-25-ns">
-
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="sec-2">
-          <div class="hl">
-            <p class="captions__white"></p>
-          </div>
-<div class="pr">
-<p class="captions" style="color: white">Responsive Material Design HTML4 Event Invitation - <a href="https://www.dropbox.com/s/auo7ubmrqi6gnh1/Doer%20Event%20Mail.html?dl=1" rel="noopener" download>Download Link</a></p>
-
-<img src="./mockups/mail_preview.png" alt="HTML Mail Event Invitation">
+<p class="tc f5 pv4">Note — The mockups contain placeholder data and the number of screens is not exhaustive</p>
 
 </div>
 
 
-
-</div>
-<p class="tc"><b>Note:</b> The mockups contain placeholder data and the number of screens is not exhaustive</p>
-
-</div>
 
 
 <div class="cs-fw" style="background-color: #40444f; color: white">

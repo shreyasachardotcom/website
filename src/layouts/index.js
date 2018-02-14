@@ -27,14 +27,15 @@ class Template extends React.Component {
         >
         <html lang="en" />
         </Helmet> 
+
         <div className="sec-2 mainheader">
           <div className="hl">
             <Link to={'/'} aria-label="Home">
-                <h1 className ='icons__logo dn dib-ns'>Shreyas Achar</h1>
+                <h1 className ='icons__logo'>Shreyas Achar</h1>
             </Link>
           </div>
           <div className="pr">
-                <h1 className ='heading__logotype'>Shreyas Achar</h1>
+                
           </div>
         </div>
         </div>

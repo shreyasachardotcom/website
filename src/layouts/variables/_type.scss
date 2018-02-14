@@ -1,0 +1,46 @@
+html, body {
+	@extend .sans-serif;
+	letter-spacing: 0.05em;
+	@extend .lh-copy;
+}
+
+h1 {@extend .fw6;} 
+h2, h3, h4, h5 ,h6 {@extend .fw5;}
+
+a {	text-decoration: none; 
+	box-shadow: none;
+	color: inherit;
+	@extend .dim;
+    &:hover {
+   		text-decoration: none;
+   	} 
+}
+
+.heading{
+	&__main {@extend .fw8;}
+	&__logotype{@extend .f3;}
+}
+
+@each $color in $colors {
+    $name: nth($color, 1);
+    $bg: nth($color, 2);
+    $txt: nth($color, 3);
+    ._#{$name} { 
+	a {
+		border-bottom: 2px solid $txt;
+		padding-bottom: 1px;
+	}
+	blockquote {
+		color: $txt;
+		font-size: 1.4em;
+	}
+	.captions__st {
+
+	 	span {color: $gray;}
+	 }
+	.blogpost{
+	.heading__color {color: white; background-color:$txt; width: fit-content; padding: 0 0.5em;}
+	.heading__white {color: $txt; background-color:white; width: fit-content; padding: 0 0.5em;}
+
+    }
+}}

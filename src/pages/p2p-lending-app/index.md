@@ -3,282 +3,166 @@ title: P2P Lending App
 date: "2017-01-01T22:40:32.169Z"
 theme: _green
 type: Case Study
-description: Designing a P2P lending app for the Indian market. 
+description: Designing a P2P lending app for the Indian market 
 featuredImage: "./featureImage.png"
 
 ---
-<div class="cs-fw" style="background-color: #f1f3f5">
-<p class="tc ph5-ns ph2 mb0" style="color: #1862AB; font-weight: 600">Note — Key parts of this case are omitted or obfuscated to comply with a non-disclosure agreement.</p>
-</div>
 
 <img src="./featureImage.png" alt="P2P Lending Banner">
 
 
-
-
-<div class="cs-fw">
-<div class="sec-2">
-          <div class="hl">
-                <p class="heading__gray">Concept</p>
-          </div>
-<div class="pr">
-
-I was approached by a few senior investment and banking professionals with an idea of creating a peer-to-peer lending app for a specific target demographic in India. They aim to disrupt the notorious pay-day loans and the unofficial lending industries, prevalent there. The app's ease of adoption and use is facilitated being through the usage of the Unified Payments Interface framework, launched recently by the Govt of India. 
-
+<div class="cs-afw">
+<p class="tc"> Note — Key parts of this case are omitted or obfuscated to comply with a non-disclosure agreement.</p>
 </div>
 
+<div class="sec-3 pv4">
+  <div class="cont">
+    <div class="conttext">
+  <p>A few industry veterans have been toying with the idea of a Peer-to-peer lending app for the Indian market. They aim to disrupt the notorious pay-day loans and the unofficial lending industries, prevalent there.</p>
 </div>
 </div>
-
-
-
-<div class="cs-fw" style="background-color: #f1f3f5">
-<div class="sec-2">
-          <div class="hl">
-                <p class="heading__gray">Wireframes</p>
-          </div>
-<div class="pr">
-
-The team came to me with some of their own back-of-the-napkin mockups, in addition to the concept note. It gave us a great starting point for the work ahead.
-
-<img src="./initialmockups.png" alt="Initial Mockups">
-
-</div>
-
-</div>
-</div>
-
-<div class="cs-fw" style="background-color: #E8E8EC">
-<div class="sec-2">
-          <div class="hl">
-                <p class="heading__gray">Iteration	</p>
-          </div>
-<div class="pr">
-
-<img src="./bettermockups.png" alt="Wireframes">
-
-
-</div>
-
-</div>
-<p class="captions__st tc ph5-ns pa1">Best Viewed on Large Screen. <br> <span>Mockups list not exhaustive. </span></p>
-</div>
-
-
-
-<div class="cs-fw">
-<div class="sec-2">
-          <div class="hl">
-                <p class="heading__gray">Branding</p>
-          </div>
-<div class="pr">
-	<div class="cf">
-		<div class="fl w-50-ns w-100 pr4">
-			<p class="captions__st">Palette</p>
-			<img src="./design/palette.png" alt="Palette">
-		</div>
-<div class="fl w-50-ns w-100 pr4">
-	<p class="captions__st">Typography</p>
-			<img src="./design/typography.png" alt="Typography">
-		</div>
-
-</div>
-</div>
-
-</div>
-</div>
-
-<div class="cs-fw bg__p2p" style="background-color: #f1f3f5">
-<div class="sec-2">
-          <div class="hl">
-                <p class="heading__color">Mockups</p>
-          </div>
-<div class="pr">
-
-<p>While creating the mockups, we tried to create an Atomic Design system that would help maintain a modular structure which would in-turn make development of React or Angular based components easy. </p>
+<div class="cont">
+    <div class="conttext">
+  <p class="silver">I was approached to design the product in totality and assist the development team in the rollout of the product. The app is also set to use the Unified Payments Interface framework, launched recently by the Govt of India.</p>
 </div>
 </div>
 </div>
 
-<div class="cs-fw" style="background-color: #CDE5E9">
-<div class="sec-2">
-          <div class="hl">
-                <p class="heading__gray f7">Onboarding</p>
-          </div>
-<div class="pr-r">
-<div class="cf">
-<div class="fl w-50 w-25-ns">
 
-<img src="./design/mockups/value.png" alt="Value Proposition">
+<div class="cs-fw pv4" style="background-color: #e0e7ee">
 
-</div>
-<div class="fl w-50 w-25-ns">
+<div class="cs">
 
-<img src="./design/mockups/welcome.png" alt="Welcome">
-
-</div>
-<div class="fl w-50 w-25-ns">
-
-<img src="./design/mockups/verify.png" alt="Verification">
-
-</div>
-<div class="fl w-50 w-25-ns">
-
-<img src="./design/mockups/friends.png" alt="Value Proposition">
-
-</div>
-</div>
-</div>
-</div>
+<p class="tc mb4">We conducted some extensive surveys and workshops with teams and representatives of the target market, and ended up with usable wireframes</p>
 </div>
 
-<div class="cs-fw" style="background-color: #D2F0E6">
-<div class="sec-2">
-          <div class="hl">
-                <p class="heading__gray f7">Borrowing Journey</p>
-          </div>
-<div class="pr-r">
-<div class="cf">
-<div class="fl w-100 w-25-ns">
-
-<img src="./design/mockups/borrow/primary.png" alt="Homescreen">
-
-</div>
-<div class="fl w-50 w-25-ns">
-
-<img src="./design/mockups/borrow/trends.png" alt="Market Trends">
-
-</div>
-<div class="fl w-50 w-25-ns">
-
-<img src="./design/mockups/borrow/inputs.png" alt="Inputs">
-
-</div>
-<div class="fl w-50 w-25-ns">
-
+<div class="cs-afw mb4">
+<img src="./process.png" alt="Process">
 
 </div>
 
 </div>
 
-<div class="cf">
-<div class="fl w-third w-25-ns">
+<div class="w-100-ns">
 
-<img src="./design/mockups/borrow/confirmation.png" alt="Confirmation">
+<div class="cf pv4">  
 
-</div>
-<div class="fl w-third w-25-ns">
+<div class="fl w-50-ns w-100 ph5-ns ph3 dt vh-75-ns vh-25">
 
-<img src="./design/mockups/borrow/success.png" alt="Success">
+<div class="dtc v-mid">
 
-</div>
-<div class="fl w-third w-25-ns">
-
-<img src="./design/mockups/borrow/complete.png" alt="Complete">
+<h3 class="f3">Branding Process</h3>
+<p class="silver">As always, the design process started with creating a brand palette and setting the type</p>
 
 </div>
-<div class="fl w-50 w-25-ns">
 
+</div>
+<div class="fl w-50-ns w-100 dt vh-75-ns vh-50">
+
+<div class="dtc v-mid">
+
+<img src="./design/brand.png" alt="Branding">
 
 </div>
 
 </div>
 
 </div>
-</div>
-</div>
-
-<div class="cs-fw" style="background-color: #B9D2E3">
-<div class="sec-2">
-          <div class="hl">
-                <p class="heading__gray f7">Lending Journey</p>
-          </div>
-<div class="pr-r">
-<div class="cf">
-  <p class="captions__dark">Manual Lending Journey</p>
-<div class="fl w-50 w-25-ns">
-
-<img src="./design/mockups/lend/market.png" alt="Market Trends">
 
 </div>
-<div class="fl w-50 w-25-ns">
 
-<img src="./design/mockups/lend/inputs.png" alt="Inputs">
+<div class="w-100">
 
-</div>
-<div class="fl w-50 w-25-ns">
+<div class="cf pv4" style="background-color: #CDE5E9;">
 
-<img src="./design/mockups/lend/criteria.png" alt="Criteria">
+<div class="fl w-50-ns w-100 ph3 ph5-ns dt vh-75-ns vh-25">
 
-</div>
-<div class="fl w-50 w-25-ns">
+<div class="dtc v-mid">
 
-<img src="./design/mockups/lend/friends.png" alt="Tier Selection">
+<h3 class="f3">Onboarding Experience</h3>
+
+<p class="silver">The onboarding experience is designed to build trust and take users through the registration process with ease</p>
 
 </div>
 
 </div>
 
-<div class="cf mt5-ns">
-  <p class="captions__dark">Guided Lending Journey</p>
-<div class="fl w-25-ns">
+<div class="fl w-50-ns w-100 dt vh-75-ns vh-50">
 
-<img src="./design/mockups/lend/interest_.png" alt="Interest Selection">
+<div class="dtc v-mid">
 
-</div>
-<div class="fl w-50 w-25-ns">
-
-<img src="./design/mockups/lend/principle_.png" alt="Principle Selection">
-
-</div>
-<div class="fl w-50 w-25-ns">
-
-<img src="./design/mockups/lend/tenure_.png" alt="Tenure Selection">
-
-</div>
-<div class="fl w-50 w-25-ns">
-
-<img src="./design/mockups/lend/selected_.png" alt="Criteria Selected">
-
-</div>
-
-</div>
-
-<div class="cf mt5-ns">
-  <p class="captions__dark">Confirmations</p>
-<div class="fl w-50 w-25-ns">
-
-<img src="./design/mockups/lend/confirm.png" alt="Confirmations">
-
-</div>
-<div class="fl w-50 w-25-ns">
-
-<img src="./design/mockups/lend/authorize.png" alt="Authorization">
-
-</div>
-<div class="fl w-50 w-25-ns">
-
-<img src="./design/mockups/lend/complete.png" alt="Transaction Complete">
-
-</div>
-<div class="fl w-50 w-25-ns">
-
-<img src="./design/mockups/lend/passbook.png" alt="Passbook">
+<img src="./design/mockups/onboard.png" alt="Onboarding">
 
 </div>
 
 </div>
 
 </div>
+
+<div class="cf pv4" style="background-color: #D2F0E6;">
+
+<div class="fl w-50-ns w-100 dt vh-75-ns vh-50" >
+
+<div class="dtc v-mid">
+
+<img src="./design/mockups/borrow.png" alt="Borrowing Process">
+
 </div>
-<p class="tc"><b>Note:</b> The mockups contain placeholder data and the number of screens is not exhaustive</p>
+
+</div>
+
+<div class="fl w-50-ns w-100 ph3 ph5-ns dt vh-75-ns vh-25">
+
+<div class="dtc v-mid">
+
+<h3 class="f3">Borrowing Journey</h3>
+
+<p class="silver">The borrowing journey ensures that the user is guided through the process with statistics, suggestions and warning.</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="cf pv4" style="background-color: #B9D2E3;">
+
+<div class="fl w-50-ns w-100 ph5-ns ph3 dt vh-75-ns vh-25">
+
+<div class="dtc v-mid">
+
+<h3 class="f3">Lending Journey</h3>
+
+<p class="silver">The lending experience is designed to offer a guided journey as well as a manual journey, with the former showing most effective terms as primary choices</p>
+
+</div>
+
+</div>
+
+<div class="fl w-50-ns w-100 dt vh-75-ns vh-50">
+
+<div class="dtc v-mid">
+
+<img src="./design/mockups/lend.png" alt="Lending Journey">
+
+</div>
+
+</div>
+
+
+
+<p class="f5 pv4 tc">Note — The mockups contain placeholder data and the number of screens is not exhaustive</p>
+
+</div>
+
 </div>
 
 <div class="cs-fw" style="background-color: #343A40; color: white">
+
 <div class="cs">
 
 
-<p class="tc pv4">The app is being currently developed by a dedicated team in India, and should be ready for a closed beta roll-out later this year.</p>
+<p class="tc pv4-ns pv2">The app is being currently developed by a dedicated team in India, and should be ready for a closed beta roll-out later this year.</p>
 
 </div> 
 </div>

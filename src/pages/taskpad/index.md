@@ -3,37 +3,44 @@ title: Taskpad
 date: "2017-05-11T23:46:37.121Z"
 theme: _orange
 type: Case Study
-description: Redesigning a to-do app based on the Eisenhower Matrix. 
+description: Redesigning a to-do app based on the Eisenhower Matrix 
 featuredImage: "./featureImage.png"
 ---
 
 <img src="./featureImage.png" alt="Taskpad Banner">
 
-<div class="sec-2">
-          <div class="hl">
-                <p class="heading__gray">Challenge</p>
-          </div>
-<div class="pr">
-
-Taskpad is a to-do app based on the [Eisenhower Matrix](http://www.eisenhower.me)
-
-While the app enjoys a good rating, its interface leaves a lot to be desired. The app developers wanted me to take a look at the Product Design and suggest effective changes that could make the user-experience more effective, while retaining the utility of the app. I also had the opportunity to help devise the revenue model for the product.
-
-          </div>
+<div class="sec-3">
+  <div class="cont">
+    <div class="conttext">
+  <p><a href="https://play.google.com/store/apps/details?id=com.pv.lite.taskpad&hl=en" rel="noopener" target="_blank">Taskpad</a> is a to-do app based on the <a href="http://www.eisenhower.me" rel="noopener" target="_blank">Eisenhower Matrix</a>. The founders wanted a redesign of the app that was now growing in popularity.</p>
 </div>
-
-<div class="sec-2">
-          <div class="hl">
-                <p class="heading__gray">Analysis</p>
-          </div>
-<div class="pr">
-
-The app's design was straightforward and employed no bold strategies. However, since the app had already been on the Play Store for a while, I requested the developers to share some analytics data on user behaviour and obtained the following results.
+</div>
+<div class="cont">
+    <div class="conttext">
+  <p class="silver">I was asked to consult on a new product strategy for Taskpad and redesign the user-experience and interface, accordingly</p>
+</div>
 </div>
 </div>
 
-<div class="m0 center ph5-ns">
+
+<div class="sec-3" style="background-color: #F1F3F5">
+
+<div class="w-70-ns w-100 ph5-ns ph3">
+
+<div class="conttext">
+
+<h3 class="f3">Product Analysis</h3>
+
+<p class="gray">Despite the uninspiring design, the app enjoyed a healthy rating on the Play Store. So, I requested the developers to share some analytics data on user behaviour and obtained the following results.</p>
+
+</div>
+
+</div>
+
+
+<div class="cs-fw ph5-ns ph3">
 <div class="cf">
+
 <div class="fl w-50 w-25-ns pr2">
 
 ![Average Tasks By Quadrant](./data/average.png)
@@ -55,258 +62,150 @@ The app's design was straightforward and employed no bold strategies. However, s
 ![Geography / Language](./data/geography.png)
 
 </div>
+
+</div>
+
+</div>
+
+<div class="ph5-ns pt4 ph3 w-70-ns w-100">
+<div class="conttext">
+
+<h3 class="f3">Inferences</h3>
+
+<p class="gray">The data seemed to suggest that while the app had not necessarily found its niche within the target demographic, select users did enjoy certain aspects of the app like role based tasks. </p>
+
+
+<p class="gray">However, from a user-experience perspective, a lot was still left to be desired, starting from the utility and understanding of the quadrants, on-boarding, information density, task hierarchies etc.</p>
+
+<p class="gray">And so, we started our sprints on features, designs, revenue models etc. </p>
 </div>
 </div>
 
-<div class="sec-2">
-          <div class="hl">
-                <p class="heading__gray"></p>
-          </div>
-<div class="pr">
-
-The data seemed to suggest that while the app had not necessarily found its niche within the target demographic, select users did enjoy certain aspects of the app like role based tasks. 
-
-
-However, from a user-experience perspective, a lot was still left to be desired, starting from the utility and understanding of the quadrants - we changed that bit up in accordance with more modern versions of the matrix. Additionally, 
-
-* There wasn't a clear on-boarding process
-* There was too much complexity with task hierarchies
-* Information Density wasn't factored for on most screens
-* The utility and importance of roles was barely highlighted
-
-
-With this information in tow, I started conducting brainstorming sessions with the developers to come up with better process flows and more efficient UX practices that emphasized the unique offerings of the vis-à-vis competition.
-
-I also started working with the founders to identify revenue models that took into consideration the nature of the product, key competencies, prevalent usage, and the management's key aspirations.
-
-
-</div>
 </div>
 
+<div class="w-100-ns pv4">
 
-<div class="cs-fw bg__tp">
+<div class="cf">  
 
-<div class="sec-2">
-          <div class="hl">
-                <p class="heading__color">Design</p>
-          </div>
-<div class="pr">
+<div class="fl w-50-ns w-100 ph5-ns ph3 dt vh-75-ns vh-50">
 
-<p>We identified the key areas to address and chose to do so with some added tools, resources and frameworks from around the web. </p>
+<div class="dtc v-mid">
 
-<p>We took a modular approach to the re-design and identified key areas to address that would also leave us with scalable and re-usable elements.</p>
+<h3 class="f3">Branding Process</h3>
+<p class="silver">We identified the primary areas to address and chose to do so with some added tools, resources and frameworks from around the web. </p>
+
+<p class="silver">We also took a modular approach to the re-design and identified key areas to address that would also leave us with re-usable elements.</p>
 
 </div>
-</div>	
 
+</div>
+<div class="fl w-50-ns w-100 dt vh-75-ns vh-50">
 
-<div class="m0 center ph5-ns">
+<div class="dtc v-mid">
+
+<img src="./design/brand.png" alt="Branding">
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="w-100 pv4" style="background-color: #343A40; color: white">
+
 <div class="cf">
-<div class="fl w-50 w-25-ns pr2 pb2-ns">
 
-<img src="./design/palette.png" alt="Palette">
+<div class="fl w-50-ns w-100 ph5-ns ph3 dt vh-75-ns vh-25">
 
-</div>
-<div class="fl w-50 w-25-ns pr2 mb2-ns">
+<div class="dtc v-mid">
 
-<img src="./design/gradients.png" alt="Gradients">
+<h3 class="f3">Better Homescreen</h3>
 
-</div>
-<div class="fl w-50 w-25-ns pr2">
-
-<img src="./design/icon.png" alt="Logo/Icon">
+<p class="silver">The newer, more aesthetic Card View and Expanded View have more information packed in the same space and utilise iconography to simplify the interface.</p>
 
 </div>
 
-<div class="fl w-50 w-25-ns pr2">
-
-<img src="./design/typography.png" alt="Typograhy">
-
-</div>
-</div>
-</div>
 </div>
 
-<div class="cs-fw" style="background-color: #E9EAED">
-<div class="sec-2">
+<div class="fl w-50-ns w-100 dt vh-75-ns vh-50" style="background-color: #343A40;">
+
+<div class="dtc v-mid">
+
+<img src="./mockups/homescreens.png" alt="Home Screens">
+
+</div>
+
+</div>
+
+</div>
+
 <div class="cf">
-<div class="fl w-100 w-50-ns pr4">
 
-<p class="heading__gray f7">Create Task</p>
 
-<p>The current method employs a Floating Action Button that brings up a text box to add task titles and buttons to add other details like Date/Time, Groups, List, Role etc
-</p>
 
-<img src="./design/createtask1.png" alt="Create Task Old Method" />
+<div class="fl w-50-ns w-100 dt vh-75-ns vh-50" style="background-color: #343A40;">
 
-<p>&nbsp;</p>
-<p>Each of the added options brings up a dialog that makes the flow a little inconvenient and then presents no visual confirmation of the data element added. </p>
+<div class="dtc v-mid">
+
+<img src="./mockups/bettercreate.png" alt="Creation of Tasks">
 
 </div>
 
-<div class="fl w-100 w-50-ns pr4">
-
-<p class="heading__color f7">Create Task - New Method</p>
-
-<p>The new design uses a translucent drawer behind the text-field without prompting another dialog thereby not distracting users and thus creates a smoother experience. </p>
-
-<img src="./design/createtask2.png" alt="Create Task New Method" />
-
-<p>&nbsp;</p>
-<p>Drawers also carry pre-filled data relevant to the option chosen along with indicators</p>
-
-<img src="./design/createtask3.png" alt="Create Task Drawers" />
-
-</div>
-</div>
 </div>
 
-<div class="sec-2">
+<div class="fl w-50-ns w-100 ph3 ph5-ns dt vh-75-ns vh-25">
+
+<div class="dtc v-mid">
+
+<h3 class="f3">Creation of Tasks</h3>
+
+<p class="silver">The newer method of creating tasks makes the user-experience smoother by using background drawers instead of interrupting dialogs, giving visual confirmations, and relegating infrequently used features to the expanded view.</p>
+
+</div>
+
+</div>
+
+</div>
+
 <div class="cf">
-<div class="fl w-100 w-50-ns pr4">
 
-<p class="heading__gray f7">Hierarchies and Categories</p>
+<div class="fl w-50-ns w-100 ph3 ph5-ns dt vh-75-ns vh-25">
 
-<p>TWe came to understand that the unique proposition of the app lied in its adoption of the Eisenhower Matrix, which also acted as the basis task hierarchy amongst users’ minds. </p>
+<div class="dtc v-mid">
 
-<p>Another aspect that we wanted to simplify was the redundance created by folders and lists to the matrix-based categorisation. 
-</p>
+<h3 class="f3">Reusable Components</h3>
 
-<img src="./design/hierarchies1.png" alt="Hierarchies Old Method" />
-
-</div>
-
-<div class="fl w-100 w-50-ns pr4">
-
-<p class="heading__color f7">Hierarchies and Categories - New Method</p>
-
-
-<p>We relegated the Folders feature to ‘pro’ users as part of the freemium offering and simplified to only having lists and roles. This would aid in de-cluttering the hierarchies.</p>
-
-<img src="./design/hierarchies2.png" alt="Hierarchies New Method" />
-
-
-<p>&nbsp;</p>
-
-<p>We also simplified the add new list options using dialogs</p>
-
-<img src="./design/hierarchies3.png" alt="Hierarchies Creating Roles" />
-
-</div>
-</div>
-</div>
-</div>
-
-<div class="cs-fw pv4" style="background-color: #343A40; color: white">
-<div class="sec-2">
-          <div class="hl">
-                <p class="heading__color">Mockups</p>
-          </div>
-<div class="pr">
-
-<p>The current design of the app can be viewed on the Play Store <a href="https://play.google.com/store/apps/details?id=com.pv.lite.taskpad&hl=en" rel="noopener" target="_blank">here</a></p>
-
-</div>
-</div>
-
-<div class="sec-2">
-          <div class="hl">
-                <p class="heading__color">Redesign</p>
-          </div>
-<div class="pr">
-
-<p class="captions__white">Default Views</p>
-The newer, more aesthetic Card View and Expanded View have more information packed in the same space and utilise iconography to simplify the interface.
-
-<div class="cf mt5">
-<div class="fl w-100 w-third-ns">
-
-<img src="./mockups/cardview.png" alt="Card View">
-
-</div>
-<div class="fl w-50 w-third-ns">
-
-<img src="./mockups/expandedview.png" alt="Expanded View">
-
-</div>
-<div class="fl w-50 w-third-ns">
-
-<img src="./mockups/dialog.png" alt="Quick Dialog">
+<p class="silver">Reusable components can be viewed everywhere from the new Detailed Create Task screen to the User Profile</p>
 
 </div>
 
 </div>
 
-</div>
-</div>
+<div class="fl w-50-ns w-100 dt vh-75-ns vh-50" style="background-color: #343A40;">
 
-<div class="sec-2">
-          <div class="hl">
-                <p class="heading__gray"></p>
-          </div>
-<div class="pr-r">
+<div class="dtc v-mid">
 
-<p class="captions__white">Creation of Tasks</p>
-<p class="w-80-ns">The newer method of creating tasks makes the user-experience smoother by using background drawers instead of interrupting dialogs, giving visual confirmations, and relegating infrequently used features to the expanded view. </p>
-
-<div class="cf mt5">
-<div class="fl w-50 w-25-ns">
-
-
-<img src="./mockups/msgpriority.png" alt="Priority Selection">
-
-</div>
-<div class="fl w-50 w-25-ns">
-
-<img src="./mockups/msglists.png" alt="List Selection">
-
-</div>
-<div class="fl w-50 w-25-ns">
-
-<img src="./mockups/msgrole.png" alt="Role Selection">
-
-</div>
-<div class="fl w-50 w-25-ns">
-
-<img src="./mockups/msgselect.png" alt="Selected Data">
+<img src="./mockups/reusable.png" alt="Reusable Components">
 
 </div>
 
 </div>
 
-</div>
-</div>
 
-<div class="sec-2">
-      		<div class="hl">
-                <p class="heading__gray"></p>
-          </div>
-<div class="pr-r">
-<div class="cf mt5">
-
-<div class="fl w-50 w-25-ns">
-<p class="captions__white tc">Detailed View/Edit</p>
-<img src="./mockups/viewedit.png" alt="Detailed View/Edit">
-</div>
-
-<div class="fl w-50 w-25-ns">
-<p class="captions__white tc">User Profile</p>
-<img src="./mockups/profile.png" alt="User Profile with Settings">
-</div>
 
 </div>
 
-</div>
-</div>
 
-<p class="tc pv4"><b>Note:</b> The mockups contain placeholder data and the number of screens is not exhaustive</p>
+<p class="tc pv4-ns pv2 f5">Note — The mockups contain placeholder data and the number of screens is not exhaustive</p>
 
 </div>
 
 <div class="cs-fw" style="background-color: #212529; color: white">
 <div class="cs">
 
-<p class="tc pv4">The Taskpad engineering team is working towards incorporating the changes and the beta, along with a web version are expected to be launched by mid 2018</p>
+<p class="tc pv4">The Taskpad engineering team is working towards incorporating the changes and the beta, along with a web version are expected to be launched by mid 2018. The <a href="https://play.google.com/store/apps/details?id=com.pv.lite.taskpad&hl=en" rel="noopener" target="_blank">current version</a> available on the Play Store does not have the changes reflected.</p>
 
 </div>	
 

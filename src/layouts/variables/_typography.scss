@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700,900');
+@import url('https://fonts.googleapis.com/css?family=Martel+Sans:300,400,700|Martel:300');
 
 
 
-$body_type: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$special : "Playfair Display", serif;
+$body_type: 'Martel Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$special : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
-$line-height: 1.85;
-.headstyle{font-family: $body_type; line-height: $line-height; @extend .ttu, .fw7, .tracked-mega; text-transform: uppercase; text-decoration:none;}
+$line-height: 2;
+.headstyle{font-family: $body_type; line-height: $line-height; @extend .ttu, .fw6, .tracked-mega; text-transform: uppercase; text-decoration:none;}
 .special{font-family: $special}
 
 body{
 	font-family: $body_type;
 	line-height: $line-height;
-	letter-spacing: 0.01em;
+	letter-spacing: 0.02em;
 }
 
 h1, h2, h3, h4, h5, h6 {@extend .headstyle; color: $dark;}
@@ -26,13 +26,23 @@ a {	text-decoration: none;
    	} 
 }
 
+.blogpost{
+	font-size: 1.2em;
+	letter-spacing: 0.04em;
+	p{ font-weight: 300;}
+}
 
+.process:after{
+		content: "\27F6";
+		@extend .moon-gray, .pr5, .v-mid, .fr;
+		font-size: .8em;
+	}
 
 .heading{
  &__gray {@extend .headstyle; color: white; background-color: $dark; width: fit-content; padding: 0 0.5em;}
  &__white {@extend .headstyle; color: white;}
  &__logotype {@extend .f2, .mt0, .fw8; font-family: $special; text-transform: none; letter-spacing: 0;}
- &__main{font-family: $special; letter-spacing: 0; text-transform: none; }
+ &__main{font-family: $special; letter-spacing: 0em; text-transform: none; @extend .fw3 }
 }
 
 .section-title, .section-title span {@extend .b, .ttu, .tracked-mega, .f5; color: #21409A !important}
@@ -101,7 +111,8 @@ a {	text-decoration: none;
 	.blogpost{
 
 	 a{
-	 	border-bottom: 2px solid $txt;
+	 	color: $txt;
+	 	border: none;
 		}
 	.heading__color {@extend .headstyle; color: white; background-color:$txt; width: fit-content; padding: 0 0.5em;}
 	.heading__white {@extend .headstyle; color: $txt; background-color:white; width: fit-content; padding: 0 0.5em;}

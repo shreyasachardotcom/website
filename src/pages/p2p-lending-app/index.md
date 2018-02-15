@@ -133,7 +133,7 @@ featuredImage: "./featureImage.png"
 
 <h3 class="f3">Lending Journey</h3>
 
-<p class="silver">The lending experience is designed to offer a guided journey as well as a manual journey, with the former showing most effective terms as primary choices</p>
+<p class="silver">The lending experience is designed to offer a guided journey as well as a manual journey, with the former showing most effective terms as primary choices thus making it easier for the user</p>
 
 </div>
 

@@ -4,8 +4,7 @@ html, body {
 	@extend .lh-copy;
 }
 
-h1 {@extend .fw6;} 
-h2, h3, h4, h5 ,h6 {@extend .fw5;}
+h1, h2, h3, h4, h5 ,h6 {@extend .fw6;}
 
 a {	text-decoration: none; 
 	box-shadow: none;

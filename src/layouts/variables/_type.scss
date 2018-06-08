@@ -4,8 +4,7 @@ html, body {
 	@extend .lh-copy;
 }
 
-h1 {@extend .fw6;} 
-h2, h3, h4, h5 ,h6 {@extend .fw5;}
+h1, h2, h3, h4, h5 ,h6 {@extend .fw7;}
 
 a {	text-decoration: none; 
 	box-shadow: none;
@@ -18,7 +17,7 @@ a {	text-decoration: none;
 
 .heading{
 	&__main {@extend .fw8;}
-	&__logotype{@extend .f3;}
+	&__logotype{@extend .f7;}
 }
 
 @each $color in $colors {

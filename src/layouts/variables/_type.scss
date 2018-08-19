@@ -9,6 +9,8 @@ h1, h2, h3, h4, h5 ,h6 {@extend .fw7;}
 a {	text-decoration: none; 
 	box-shadow: none;
 	color: inherit;
+	border-bottom: 2px solid $gray;
+	padding-bottom: 0px;
 	@extend .dim;
     &:hover {
    		text-decoration: none;

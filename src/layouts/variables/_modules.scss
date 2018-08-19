@@ -39,5 +39,8 @@
 
 .indexpage, .footer {@extend .pb4; margin-bottom: 0;}
 
-.featured__work{background-color: #f0f0ee;}
+.bgbg {background-color: #f0f0ee;}
+
+.featured__work{@extend .bgbg}
 .main__content{background-color: #f6f1e5}
+

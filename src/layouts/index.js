@@ -28,7 +28,7 @@ class Template extends React.Component {
         <html lang="en" />
         </Helmet> 
 
-        <div className="sec-2 mainheader">
+        <div className="sec-2 bgbg mainheader">
           <div className="hl">
             <Link to={'/'} aria-label="Home">
                 <h1 className ='icons__logo'>Shreyas Achar</h1>
@@ -60,7 +60,6 @@ class Template extends React.Component {
       <div>
         {header}
         {children()}
-        <Footer />
       </div>
     )
   }
